@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54464BA5B7B34E09AC99AE09 /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1B99DD17C8453CA0767C67 /* NCAppDelegate.m */; };
+		715FA7DB1981787A004E74CB /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715FA7DA1981787A004E74CB /* NCViewController.m */; };
 		84993A3938C44B1B91977C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF58AA5FB534C45B63E6077 /* Foundation.framework */; };
 		CB896403AF5244C9A864F72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F76497DCD44EFC85630699 /* main.m */; };
 		F1B3634337484F78970DAAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EADF1F008B405BABC55010 /* Images.xcassets */; };
@@ -29,6 +30,8 @@
 		4D5589DFE4484574BC33BAD2 /* NCMultiStepIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCMultiStepIndicator-Info.plist"; sourceTree = "<group>"; };
 		5E72241EF26E428EB768473A /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF58AA5FB534C45B63E6077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		715FA7D91981787A004E74CB /* NCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
+		715FA7DA1981787A004E74CB /* NCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
 		74F513A6A8AB4B6B9ECDCFFC /* NCMultiStepIndicator-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMultiStepIndicator-Prefix.pch"; sourceTree = "<group>"; };
 		8F2B8C0536214787B3FD7DB3 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		942B34469E8643CC83F44705 /* NCMultiStepIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCMultiStepIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,6 +194,8 @@
 		DA065F3D3A07491FA6261BC2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				715FA7D91981787A004E74CB /* NCViewController.h */,
+				715FA7DA1981787A004E74CB /* NCViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715FA7DB1981787A004E74CB /* NCViewController.m in Sources */,
 				54464BA5B7B34E09AC99AE09 /* NCAppDelegate.m in Sources */,
 				CB896403AF5244C9A864F72E /* main.m in Sources */,
 			);

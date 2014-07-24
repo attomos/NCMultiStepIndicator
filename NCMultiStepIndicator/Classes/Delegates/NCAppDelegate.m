@@ -7,7 +7,16 @@
 //
 
 #import "NCAppDelegate.h"
+#import "NCViewController.h"
 
 @implementation NCAppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds] ;
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[NCViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    return YES;
+}
 
 @end
