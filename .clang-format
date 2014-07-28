@@ -1,0 +1,6 @@
+---
+Language:        Cpp
+BasedOnStyle:  Webkit
+PointerBindsToType: false
+BreakBeforeBraces: Attach
+...

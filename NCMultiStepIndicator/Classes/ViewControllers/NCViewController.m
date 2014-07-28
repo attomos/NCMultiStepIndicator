@@ -7,6 +7,7 @@
 //
 
 #import "NCViewController.h"
+#import "NCMultiStepIndicator.h"
 
 @interface NCViewController ()
 
@@ -16,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NCMultiStepIndicator *indicator = [[NCMultiStepIndicator alloc] init];
+    [self.view addSubview:indicator];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
